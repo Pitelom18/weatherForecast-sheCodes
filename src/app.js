@@ -1,3 +1,12 @@
+// app.js
+require('dotenv').config();
+
+const apiKey = process.env.API_KEY;
+
+
+
+
+
 function displayWeather(response) {
   console.log(response);
   function getInformation(response) {
@@ -45,8 +54,7 @@ function displayWeather(response) {
 }
 
 function handleSubmit(event) {
-  event.preventDefault();
-  let apiKey = "77a00f0d7ddd1f393abdea0ff3476129"
+  event.preventDefault();  
   let cityInput = document.getElementById("citySearch").value;
 
   if (cityInput !== "") {
