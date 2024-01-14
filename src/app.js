@@ -1,8 +1,6 @@
 // app.js
-require('dotenv').config();
-
-const apiKey = process.env.API_KEY;
-
+const API_KEY="77a00f0d7ddd1f393abdea0ff3476129"
+const apiKey = API_KEY
 
 
 
